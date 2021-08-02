@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<!--site web modifié le 14-07-2021-->
+    <title>J'apprends à coder un site web</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jules CESAR">
+    <meta name="description" content="J'apprends à coder un site web">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/contact.css">
+  </head>
+  
+  <body>
+		<header>
+			<div>
+				<img src="img/html-white.svg" alt="Logo HTML" class="header_logo">
+				<img src="img/css-white.svg" alt="Logo CSS" class="header_logo">
+			</div>
+		
+			<nav>
+				<a href="index.html" class="nav_link">Accueil</a>
+				<a href="apples.html" class="nav_link">Pommes</a>
+				<a href="lemons.html" class="nav_link">Citrons</a>
+				<a href="sandbox.html" class="nav_link">Sandbox</a>
+				<a href="contact.html" class="nav_link">Contact</a>
+			</nav>
+		</header>
+		
+    <h1>Bienvenue dans le formulaire de contact</h1>
+			<form action="form-processing.html">
+				Votre prénom<span class="red"> *</span>
+        <input type="text" value="Entrez votre prénom ici" class="contact_field_content">
+
+        Votre nom<span class="red"> *</span>
+        <input type="text" value="Entrez votre nom ici" class="contact_field_content">
+
+        Votre adresse email<span class="red"> *</span>
+        <input type="text" value="Entrez votre adresse de courriel ici" class="contact_field_content">
+
+        Votre message <span class="red"> *</span>
+        <textarea class="contact_field_content" rows="4" cols="50" maxlength="10"
+					placeholder="Entrez votre message ici">
+        </textarea>
+
+        <p>
+					<input type="reset" value="Réinitialiser">
+          <input type="submit" value="Envoyer">
+        </p>
+      </form>
+  </body>
+</html>

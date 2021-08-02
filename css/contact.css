@@ -1,0 +1,17 @@
+form {
+  width: 90%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1%;
+}
+
+.contact_field_content {
+  display: block;
+  width: 90%;
+  font-family: "Ubuntu-L", Helvetica, Arial, sans-serif;
+  color: var(--grey);
+  margin-bottom: 2%;
+}
+
+
+
