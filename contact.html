@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="author" content="Ficart Jean-Marc">
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/contact.css">
+
+		<title>J'apprends à coder un site web</title>
+	</head>
+	<body>
+		<! commentaire >
+        <header>
+            <img src="img/html-white.svg" alt="Logo html" class="header_logo">
+            <img src="img/css-white.svg" alt="Logo CSS" class="hearder_logo">
+            <nav>
+                <a href="index.html" class="nav_link">Accueil</a>
+                <a href="apples.html" class="nav_link">Pommes</a>
+                <a href="lemons.html" class="nav_link">Citrons</a>
+                <a href="sandbox.html" class="nav_link">Sandbox</a>
+                <a href="contact.html" class="nav_link">Contact</a>
+            </nav>
+        </header>
+        
+        <h1>Bienvenue dans le formulaire de contact.</h1>
+        <form action="form-processing.html">
+            Votre prénom <span class="red"> *</span>
+            <input type="text" name="prenom" placeholder="Entrez votre prénom" class="contact_field_content" required>
+            Votre nom <span class="red"> *</span>
+            <input type="text" name="nom" placeholder="Entrez votre nom" class="contact_field_content" required>
+            Votre adresse email <span class="red"> *</span>
+            <input type="text" name="email" placeholder="Entrez votre email" class="contact_field_content" required>
+            Votre message <span class="red"> *</span>
+            <textarea name="message" rows="4" cols="50" class="contact_field_content" maxlength="10" placeholder="Entrez votre message" required></textarea>
+            <p>
+                <input type="reset" value="Réinitialiser">
+                <input type="submit" value="Envoyer">
+            </p>
+        </form>
+	</body>
+</html>

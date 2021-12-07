@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/sandbox.css">
+
+		<title>J'apprends à coder un site web</title>
+	</head>
+	<body>
+		<! commentaire >
+        <header>
+            <img src="img/html-white.svg" alt="Logo html" class="header_logo">
+            <img src="img/css-white.svg" alt="Logo CSS" class="hearder_logo">
+            <nav>
+                <a href="index.html" class="nav_link">Accueil</a>
+                <a href="apples.html" class="nav_link">Pommes</a>
+                <a href="lemons.html" class="nav_link">Citrons</a>
+                <a href="sandbox.html" class="nav_link">Sandbox</a>
+                <a href="contact.html" class="nav_link">Contact</a>
+            </nav>
+        </header>
+        
+        <h1>Bienvenue dans le bac à sable.</h1>
+
+        <section>
+            <h2>Calcul de la dimension des boîtes standards et alternatives</h2>
+            <div class="standard_box">
+                <img src="img/mdn-web-docs.png" class="image_content">
+                <img src="img/mdn-web-docs.svg" class="image_content">
+            </div>
+        </section>
+
+        <section>
+            <h2>Modèle de boîte des balises &lt;audio&gt; et &lt;vidéo&gt;</h2>
+            <!--TEXTE-->
+            <!--<audio controls><source src="audio/perception.oga" type="audio/ogg"></audio>TEXTE-->
+            <!--<audio controls><source src="audio/perception.oga" type="audio/ogg"></audio>-->
+            <!--TEXTE-->
+
+            <p>TEXTE</p>
+            <p><audio controls><source src="audio/perception.oga" type="audio/ogg"></audio></p>
+            <audio controls><source src="audio/perception.oga" type="audio/ogg"></audio>
+            <br>TEXTE
+        </section>
+        <section>
+            <h2>Boîte Flexbox : <span>class="red">flex-direction</span></h2>
+            <p>Axe de positionnement principal pour les flexitems (horizontal ou vertical)</p>
+            <fieldset class="flex_fieldset">
+                <legend>flex-direction: <span class="red">row *</span></legend>
+                <div class="flex_container">
+                    <span class="flex_item item item_Bruxelles">Bruxelles</span>
+                    <span class="flex_item item item_Madrid">Madrid</span>
+                    <span class="flex_item item item_Oslo">Oslo</span>
+                    <span class="flex_item item item_Paris">Paris</span>
+                </div><!-- end flex direction : row -->
+            </fieldset>
+            <fieldset class="flex_fieldset">
+                <legend>flex-direction: <span class="red">column</span></legend>
+                <div class="flex_container direction_column">
+                    <span class="flex_item item item_Bruxelles">Bruxelles</span>
+                    <span class="flex_item item item_Madrid">Madrid</span>
+                    <span class="flex_item item item_Oslo">Oslo</span>
+                    <span class="flex_item item item_Paris">Paris</span>
+                </div><!-- end flex direction : column -->
+            </fieldset>
+        </section>
+        
+        <section>
+            <h2>Boîte Flexbox : <span>class="red">justify-content</span></h2>
+            <p>Justification des Flex Items sur l'axe principal (horizontal)</p>
+            <fieldset class="flex_fieldset">
+                <legend>justify-content: <span class="red">flex-start *</span></legend>
+                <div class="flex_container">
+                    <span class="flex_item item item_Bruxelles">Bruxelles</span>
+                    <span class="flex_item item item_Madrid">Madrid</span>
+                    <span class="flex_item item item_Oslo">Oslo</span>
+                    <span class="flex_item item item_Paris">Paris</span>
+                </div><!-- end justify-content : flex-start -->
+            </fieldset>
+            <fieldset class="flex_fieldset">
+                <legend>justify-content: <span class="red">center</span></legend>
+                <div class="flex_container justify_center">
+                    <span class="flex_item item item_Bruxelles">Bruxelles</span>
+                    <span class="flex_item item item_Madrid">Madrid</span>
+                    <span class="flex_item item item_Oslo">Oslo</span>
+                    <span class="flex_item item item_Paris">Paris</span>
+                </div><!-- end justify content : center -->
+            </fieldset>
+            <fieldset class="flex_fieldset">
+                <legend>justify-content: <span class="red">flex-end</span></legend>
+                <div class="flex_container justify_end">
+                    <span class="flex_item item item_Bruxelles">Bruxelles</span>
+                    <span class="flex_item item item_Madrid">Madrid</span>
+                    <span class="flex_item item item_Oslo">Oslo</span>
+                    <span class="flex_item item item_Paris">Paris</span>
+                </div><!-- end justify content : flex-end -->
+            </fieldset>
+            <fieldset class="flex_fieldset">
+                <legend>justify-content: <span class="red">space-between</span></legend>
+                <div class="flex_container justify_space_between">
+                    <span class="flex_item item item_Bruxelles">Bruxelles</span>
+                    <span class="flex_item item item_Madrid">Madrid</span>
+                    <span class="flex_item item item_Oslo">Oslo</span>
+                    <span class="flex_item item item_Paris">Paris</span>
+                </div><!-- end justify content : justify space_between -->
+            <fieldset class="flex_fieldset">
+                <legend>justify-content: <span class="red">space-around</span></legend>
+                <div class="flex_container justify_space_around">
+                    <span class="flex_item item item_Bruxelles">Bruxelles</span>
+                    <span class="flex_item item item_Madrid">Madrid</span>
+                    <span class="flex_item item item_Oslo">Oslo</span>
+                    <span class="flex_item item item_Paris">Paris</span>
+                </div><!-- end justify content : justify space_around -->
+            </fieldset>
+            </fieldset>
+        </section>
+	</body>
+</html>

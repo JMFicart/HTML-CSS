@@ -1,0 +1,110 @@
+html {
+    --grey: #333333;
+    --medium-grey: #666666;
+    --light-grey: #f2f2f2;
+    --blue: #006cd1;
+    --orange: #ff6600;
+    --light-orange: #ffe0cc;
+    --light-yellow: #ffffe0;
+    --red: #ff0000;
+    --green: #2f4f4f;
+    --medium-green: #bfd9d9;
+    --light-green: #eff5f5;
+}
+
+@font-face{
+    font-family: "Ubuntu-L";
+    src: url(/fonts/Ubuntu-L.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: "Ubuntu-M";
+    src: url(/fonts/Ubuntu-M.ttf) format('truetype');
+}
+/* commentaires */
+body {
+    background-color: var(--light-green);
+    font-size: 100%;
+    font-weight: normal;
+    color: var(--medium-grey);
+    font-family: "Ubuntu-L", Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: var(--green);
+}
+
+.header_logo {
+    width: : 3.5%;
+    padding: 1% 0 0 1%;
+}
+
+nav {
+    padding: 1%;
+}
+
+.nav_link {
+    color: white;
+    text-decoration: none;
+    margin-right: 0.5%;
+}
+
+h1 {
+    /*color: var(--blue);*/
+    font-size: 200%;
+}
+
+h2 {
+    /*color: var(--orange);*/
+    font-size: 130%;
+}
+
+h1,h2 {
+    color: var(--blue);
+}
+
+.home_image {
+    max-width: 100%;
+}
+
+.fruit_image {
+    max-width: 20%;
+    float: left;
+}
+
+.grey {
+    color: var(--grey);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.green {
+    color: var(--green);
+}
+
+.red {
+    color: var(--red);
+}
+
+.mediumgrey {
+    color: var(--medium-grey);
+}
+
+.font_L {
+    font-family: "Ubuntu-L", Helvetica, Arial, sans-serif;
+}
+
+.font_M {
+    font-family: "Ubuntu-M", Helvetica, Arial, sans-serif;
+}
+
+.gras {
+    font-family: "Ubuntu-M", Helvetica, Arial, sans-serif;
+}
+
+audio,video {
+    width: 70%;
+}
+
